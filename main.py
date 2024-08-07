@@ -7,11 +7,6 @@ def main():
     charCount = char_count(text)
 
     sorted = char_sort(charCount)
-    
-    print(sorted)
-    print(sorted[0])
-    print(sorted[0]["char"])
-    print(sorted[0]["num"])
 
     report(sorted, wordCount, path)
 
